@@ -1,0 +1,57 @@
+.bande{
+    width: 100%;
+    background-color:var(--beige);
+}
+.bande div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bande h6{
+    color: var(--brown);
+}
+.bande svg{
+    fill: var(--brown);
+}
+/*==MEDIA QUERRY*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .bande {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 2vh 7vw;
+    }
+}
+ @media (min-width: 481px) and (max-width: 768px) {
+    .bande {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 2vh 7vw;
+    }
+
+
+ }
+ @media (min-width: 769px) {
+    .bande {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding: 4vh 7vw;
+    
+}
+ 
+ }

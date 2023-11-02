@@ -1,0 +1,43 @@
+/*==GLOBAL CSS==*/
+
+* {
+    box-sizing: border-box;
+    font-family: Courier, serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0;
+  }
+  body,ul ,p,h1,h2,h6,h5,h3,h4{
+    margin: 0 !important;
+  
+    padding: 0 ;
+  }
+  h1 {
+    font-weight: 600 !important ;
+  }
+  
+  :root {
+
+    --black: #111111;
+    --white: #fff;
+  
+    --brown: #877869;
+    --beige: #e6ddd9;
+  }
+  
+  input,
+  textarea {
+    border: none;
+    padding: 0.7rem;
+    color: var(--brown);
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--brown);
+  }
+  ul{
+  
+  list-style: none;
+  
+  }
+  #link{text-decoration: none;}
